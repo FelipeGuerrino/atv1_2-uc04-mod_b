@@ -1,0 +1,5 @@
+ProjetoBase/
+bin
+obj
+*.dll
+target
