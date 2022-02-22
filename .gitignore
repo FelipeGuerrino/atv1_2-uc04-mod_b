@@ -1,4 +1,5 @@
 ProjetoBase/
+.vscode/
 bin
 obj
 *.dll
