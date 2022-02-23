@@ -20,6 +20,7 @@ namespace Hotsite.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Logging...");
             return View();
         }
 
