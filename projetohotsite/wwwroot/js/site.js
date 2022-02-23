@@ -15,3 +15,15 @@ $("#apoiadores").on("click", (e) => {
     $("#modalApoiadores").modal("show");
     e.preventDefault();
 });
+
+const cadastro = $("#form").on("submit", () => {
+    alert("Cadastro realizado com sucesso!");
+});
+
+try {
+    cadastro;
+} catch (err) {
+    () => {
+        alert("Ocorreu um erro ao processar o cadastro, por favor, tente novamente mais tarde.")
+    }
+}
