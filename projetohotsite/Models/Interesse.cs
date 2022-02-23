@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Hotsite.Models
 {
-    ///Entidade EF Core Interesse
+    //Entidade EF Core Interesse
     public class Interesse
     {
         public int Id { get; set; }
