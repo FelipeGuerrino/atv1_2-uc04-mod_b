@@ -36,8 +36,6 @@ namespace Hotsite.Controllers
                 _logger.LogError("Global error " + e.Message);
                 return Json(new {status="ERRO", message="Falha ao gravar os dados"});
             }
-            return View("Index",cad);
         }
-
     }
 }
