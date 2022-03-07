@@ -1,5 +1,4 @@
-const submit = () => {
-  
+const submit = () => {  
   let params = {
     Nome: $("#nome").val(),
     Email: $("#email").val(),
@@ -21,11 +20,15 @@ const submit = () => {
   .fail( () => { alert("Ocorreu um erro") })
 }
 
+const clearForm = () => $("#form").trigger("reset")
 
 
 
 $("#form").on("submit", (e) => {
   e.preventDefault()
+  
   submit()
+
+  clearForm()
 })
 
